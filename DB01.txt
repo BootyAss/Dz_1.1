@@ -1,0 +1,31 @@
+DB name : DB01
+ 
+Unit name : Ex1
+Type of unit : Educational
+Head name : P. M. Shkapov
+PGS amount = 20
+Staff amount = 50
+Course = 1
+Project name = Ex1
+Project cost = 100
+
+ 
+Unit name : Ex2
+Type of unit : Educational
+Head name : D. O. Leviev
+PGS amount = 20
+Staff amount = 50
+Course = 1
+Project name = Ex2
+Project cost = 100
+
+ 
+Unit name : Ex3
+Type of unit : Educational
+Head name : M. A. Basarab
+PGS amount = 20
+Staff amount = 50
+Course = 1
+Project name = Ex3
+Project cost = 100
+

@@ -1,0 +1,11 @@
+DB name : DB1
+ 
+Unit name : FN3
+Type of unit : Educational
+Head name : P. M. Shkapov
+PGS amount = 20
+Staff amount = 50
+Course = 1
+Project name = 4 Newton law
+Project cost = 100
+

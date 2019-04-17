@@ -1,0 +1,21 @@
+DB name : DB2
+ 
+Unit name : IC8
+Type of unit : Educational
+Head name : M. A. Basarab
+PGS amount = 30
+Staff amount = 100
+Course = 1
+Project name = Survival Quest
+Project cost = 2880000
+
+ 
+Unit name : IC8-23
+Type of unit : Scientific
+Head name : D. O. Leviev
+PGS amount = 10
+Staff amount = 20
+Course = 1
+Student amount = 21
+Education cost = 144000
+

@@ -1,0 +1,24 @@
+DB name : DB3
+ 
+Unit name : MT12
+Type of unit : Educational
+Head name : A. G. Grigoryanc
+PGS amount = 30
+Staff amount = 50
+Course = 1
+Project name = Lasers're cool
+Project cost = 1000000
+
+ 
+Unit name : MT5
+Type of unit : Educational
+Head name : A. Yu. Korotchenko
+PGS amount = 30
+Staff amount = 30
+Course = 1
+Project name = Luche by na zavod
+Project cost = 100000
+Course = 2
+Project name = Same
+Project cost = 99999
+
