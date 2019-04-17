@@ -1,4 +1,6 @@
-All needed files included
+All needed files included (so now they are really)
+##all updates are marked as "upd::"
+
 ```Shell
 DB - the DataBase class, contains vector of Units
 Unit - base class, "Подразделение"
@@ -10,7 +12,7 @@ Paths - header with paths to an object/directory
 
 Source - only main() function
 ```
-## Так же добавил 4 файла с готовыми примерами Баз Данных .txt (DB0,DB1,DB2,DB3)
+upd:: ## Так же добавил 6 файлов с готовыми примерами Баз Данных .txt (DB0,DB1,DB2,DB3,DB4,DB01), DB01 - копия DB1, может быть удалена для тестирования функции delete
 
 ## Для реализации я выбрал не самый разумный пусть - создал класс DB с вектором Unit* и использовал map<string, Unit*> в main. Думаю, легче было создать вектор имен string и обращаться к классу через это имя для получения данных.
 
@@ -27,8 +29,11 @@ Source - only main() function
  amount <DB name> 
  find <Unit name> - вывод имен Баз Данных, сожержащих Подразделение с именем <Unit name> 
  find <Head name>
- delete all - удаление всех Баз Данных из памяти (.txt файлы не трогаются)
- delete <DB name>
+ upd:: remove all - удаление всех Баз Данных из памяти (.txt файлы не трогаются)
+ upd:: remove <DB name>
+ upd:: delete all - удаление всех .txt файлов из директории, с содержанием информации о Базе Данных
+ upd:: delete <DB name> 
+ upd:: edit <DB name> - изменение параметров Базы Данных #Для сохранения изменений сохраните Базу Данных (save <DB name>)
  clear - очистка консоли
  head <Head name> - вывод Подразделений, которые возглавляет <Head name>
  staff <amount> - вывод Подразделений, у которых кол-во работников превышает amount
@@ -52,8 +57,8 @@ Source - only main() function
  amount
  amount <DB name>
  find <Head name>
- delete all
- delete <Unit name>
+ upd:: remove all
+ upd:: remove <Unit name>
  current - вывести название текущей Базы Данных
  clear
  head <Head name>
@@ -68,3 +73,5 @@ Source - only main() function
  back
  end
 ```
+
+upd:: Добавил несколько методов в классы для реализации функций, проверил на ошибки, вызванные неправильным вводом параметров пользователем.
